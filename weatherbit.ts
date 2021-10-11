@@ -1,5 +1,5 @@
 /**
-* Mary West @ SparkFun Electronics 
+* Mary West @ SparkFun Electroni
 * Ryan Mortenson https://github.com/ryanjmortenson
 * June 13, 2017
 * https://github.com/sparkfun/pxt-weather-bit
