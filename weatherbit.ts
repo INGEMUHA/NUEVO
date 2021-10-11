@@ -216,21 +216,21 @@ namespace weatherbit {
 
         let windDir = 0
         windDir = pins.analogReadPin(AnalogPin.P1)
-        if (windDir < 906 && windDir > 886)
+        if (windDir < 891 && windDir > 889)
             return "N"
-        else if (windDir < 712 && windDir > 692)
+        else if (windDir < 889 && windDir > 887)
             return "NE"
-        else if (windDir < 415 && windDir > 395)
+        else if (windDir < 887 && windDir > 884)
             return "E"
-        else if (windDir < 498 && windDir > 478)
+        else if (windDir < 866 && windDir > 864)
             return "SE"
-        else if (windDir < 584 && windDir > 564)
+        else if (windDir < 758 && windDir > 756)
             return "S"
-        else if (windDir < 819 && windDir > 799)
+        else if (windDir < 803 && windDir > 799)
             return "SW"
-        else if (windDir < 988 && windDir > 968)
+        else if (windDir < 841 && windDir > 839)
             return "W"
-        else if (windDir < 959 && windDir > 939)
+        else if (windDir < 879 && windDir > 875)
             return "NW"
         else
             return "???"
